@@ -7,3 +7,9 @@ comp:
 
 sim:
   simv –cm line+tgl+fsm+branch+cond –cm_dir $(CM_DIR) –cm_name $(TEST)
+  
+comp1:
+	vcs –cm line+cond+fsm –o mysimv
+
+sim1:
+  mysimv –cm line+tgl+fsm+branch+cond –cm_dir mysimv.vdb –cm_name $(TEST)

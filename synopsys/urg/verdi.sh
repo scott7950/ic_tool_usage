@@ -1,2 +1,2 @@
 
-verdi -cov -covdir <covSrcDir>
+verdi -cov -covdir <covSrcDir> -covf <file> -metric <type>

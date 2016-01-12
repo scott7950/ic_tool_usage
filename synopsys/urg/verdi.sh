@@ -1,1 +1,2 @@
 
+verdi -cov -covdir <covSrcDir>
